@@ -10,13 +10,13 @@ namespace Homework1_4_3
     {
         static void Main(string[] args)
         {
-            int number = IntReadLine();
+            int number = ReadInt();
             Console.WriteLine("number: " + number);
             Console.Write("Для продолжения нажмите любую кнопку...");
             Console.ReadKey();
         }
 
-        static int IntReadLine()
+        static int ReadInt()
         {
             bool isConvert = false;
             int number=0;
