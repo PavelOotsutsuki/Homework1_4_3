@@ -36,6 +36,5 @@ namespace Homework1_4_3
 
             return number;
         }
-
     }
 }
